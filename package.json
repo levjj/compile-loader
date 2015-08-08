@@ -1,0 +1,20 @@
+{
+  "name": "compile-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader which evaluates the module at compile time",
+  "main": "index.js",
+  "author": {
+    "name": "Christopher Schuster",
+    "email": "cs@livoris.net",
+    "url": "https://livoris.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levjj/compile-loader"
+  },
+  "license": "ISC",
+  "keywords": [
+    "webpack",
+    "webpack-loader"
+  ]
+}
