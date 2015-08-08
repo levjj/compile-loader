@@ -12,7 +12,7 @@ Useful for removing secrets from the source when bundling config files.
 
 ```javascript
 function PRIVATE(a) {
-  return process.ENV.CLIENT ? a : undefined;
+  return process.env.CLIENT ? a : undefined;
 }
 module.exports = {
   production: {
