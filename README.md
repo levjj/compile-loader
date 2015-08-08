@@ -31,3 +31,8 @@ above code.
 However, when using the `eval-loader`, webpack will evaluate the module at
 compile time and replace its contents with the resulting value of
 `module.exports`.
+
+```javascript
+// resulting webpack bundle
+module.exports = {"production":{"port":9000,"assets":[],"session":{}}}
+```
