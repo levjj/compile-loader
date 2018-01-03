@@ -1,6 +1,6 @@
 {
   "name": "compile-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack loader which evaluates the module at compile time",
   "main": "index.js",
   "author": {
